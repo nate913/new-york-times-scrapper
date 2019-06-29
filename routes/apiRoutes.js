@@ -5,8 +5,9 @@ const mongoose = require("mongoose");
 const db = require("../models");
 
 // Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://<dbuser>:<dbpassword>@ds035836.mlab.com:35836/heroku_5vflchrk";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://<usernme1>:<password1>@ds245518.mlab.com:45518/heroku_75tvqsvg";
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+
 
 module.exports = function (app) {
   // home page
